@@ -63,6 +63,7 @@
         
         [self setWindowLevel: UIWindowLevelStatusBar +1.0f];
         [self setBackgroundColor:[UIColor blackColor]];
+        [self setHidden:NO];
         
         [[NSNotificationCenter defaultCenter] addObserver: self
                                                  selector: @selector(applicationDidBecomeActiveNotification)
